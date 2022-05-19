@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monserrat;
+}
+
+body {
+  background: #fddcd5;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 65px;
+  margin-left: 100px;
+}
+
+section {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+th,
+td {
+  border: 1px solid #b81c5d;
+  text-align: center;
+  padding: 5px;
+}
+
+th:first-of-type {
+  width: 50px;
+}
+
+th:nth-of-type(2) {
+  width: 100px;
+}
+th:nth-of-type(3) {
+  width: 120px;
+}
+th:nth-of-type(4) {
+  width: 120px;
+}
+th:nth-of-type(5) {
+  width: 180px;
+}
+th:nth-of-type(6) {
+  width: 80px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+#vip {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#search {
+  padding: 3px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  width: 110px;
+  border: 1px solid #b81c5d;
+  border-radius: 4px;
+  background: #b81c5d;
+  color: azure;
+  transition: 0.3s;
+  padding: 3px;
+  margin-left: 8px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: azure;
+  color: #b81c5d;
+}
